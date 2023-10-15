@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ehsaas | Spa Services</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <header class="row">
+        <img id="header-img" src="img/cover.jpg" alt="" />
+        <div class="row-crop">
+          <nav>
+            <img src="img/logo1.svg" alt="" />
+            <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">FEATURE</a></li>
+              <li><a href="">SERVICE</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="head-section">
+            <h3>Spa & Beauty Center</h3>
+            <h1>
+              Experience Relaxation<br />
+              Like Never Before.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              aliquam ab <br> vel accusamus dolorem repellendus voluptas eius autem
+              nisi expedita!
+            </p>
+            <div>
+              <button class="btn-main">Check Us</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Header Section -->
+
+      <!-- About Section -->
+      <section class="row about">
+        <div class="row-crop">
+          <img src="img/plant.png" alt="" />
+          <h3>About Our Spa Center</h3>
+          <h2>Come & Experience Tranquility</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, ex?
+            Itaque doloribus praesentium accusamus, non beatae ratione ad
+            dolorem quidem exercitationem! Omnis minus expedita quibusdam
+            laudantium repudiandae tempore adipisci ipsum?
+          </p>
+          <button class="btn">Explore Us</button>
+        </div>
+      </section>
+      <!-- About Section -->
+
+      <!-- Gallery Section -->
+      <section class="row">
+        <div class="card-container">
+          <div class="card">
+            <img src="img/g1.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="img/g2.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="img/g3.jpg" alt="" />
+          </div>
+          <div class="card">
+            <img src="img/g4.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Gallery Section -->
+      <!-- Services Section -->
+      <section class="row">
+        <div class="row-crop">
+          <h2>Popular Services</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            officiis laborum, corrupti totam repellat eius? Magni quas quo quae
+            excepturi.
+          </p>
+          <div class="card-container">
+            <div class="card card-border">
+              <img src="img/g1.jpg" alt="" />
+              <div class="card-det">
+                <h3>Massage Therapy</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  ratione mollitia at provident dolorem?
+                </p>
+                <div>
+                  <button class="btn btn-small">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <img src="img/s2.jpg" alt="" />
+              <div class="card-det">
+                <h3>Aroma Therapy</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  ratione mollitia at provident dolorem?
+                </p>
+                <div>
+                  <button class="btn btn-small">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="card card-border">
+              <img src="img/s3.jpg" alt="" />
+              <div class="card-det">
+                <h3>Hydrotherapy</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  ratione mollitia at provident dolorem?
+                </p>
+                <div>
+                  <button class="btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section -->
+
+      <!-- Appointment Section -->
+      <section class="row appointment">
+        <img src="img/g2.jpg" alt="" />
+        <form action="">
+          <div>
+            <input type="text" name="name" id="" placeholder="Name" />
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Email Address"
+            />
+          </div>
+          <div>
+            <select name="service" id="">
+              <option value="" disabled selected hidden>Select Service</option>
+              <option value="Massage">Massage</option>
+              <option value="Aroma Therapy">Aroma Therapy</option>
+              <option value="Hydrotherapy">Hydrotherapy</option>
+            </select>
+            <input type="tel" name="" id="" placeholder="Phone Number" />
+          </div>
+          <div>
+            <input type="date" name="" id="" />
+            <input type="time" name="" id="" />
+          </div>
+          <div>
+            <textarea
+              name="comment"
+              id=""
+              cols="60"
+              rows="3"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <div>
+            <input class="btn" type="submit" value="Make an Appointment" />
+          </div>
+        </form>
+      </section>
+      <!-- Appointment Section -->
+
+      <!-- Employee Section -->
+      <section class="row">
+        <div class="row-crop">
+          <h2>Our Team</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            officiis laborum, corrupti totam repellat eius? Magni quas quo quae
+            excepturi.
+          </p>
+          <div class="card-container">
+            <div class="card">
+              <img src="img/c1.jpg" alt="" />
+              <div class="card-info">
+                <h3>Mia Rowland</h3>
+                <p>Hair Stylist</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/c2.jpg" alt="" />
+              <div class="card-info">
+                <h3>Scarlett Phelps</h3>
+                <p>Hair Stylist</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/c3.jpg" alt="" />
+              <div class="card-info">
+                <h3>Ashley Hart</h3>
+                <p>Hair Stylist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Employee Section -->
+
+      <!-- Contact Section -->
+      <section class="row touch">
+        <div class="row-crop">
+          <h2>Get In Touch</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            officiis laborum, corrupti totam repellat eius? Magni quas quo quae
+            excepturi.
+          </p>
+          <div class="contact">
+            <div>
+              <span>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>
+                  848 E 28th ST, BROOKLYN
+                  <br />NEW YORK, USA
+                </p>
+              </span>
+              <span>
+                <i class="fa-solid fa-envelope"></i>
+                <p>
+                  <a href="">example@ehsaasspa.com </a><br /><a href=""
+                    >example@ehsaasspa.com</a
+                  >
+                </p>
+              </span>
+              <span>
+                <i class="fa-solid fa-phone"></i>
+                <p>
+                  +02 365 2365 3265 (02)<br />
+                  +01 365 2365 3265 (04)
+                </p>
+              </span>
+            </div>
+            <form action="">
+              <input type="text" name="name" id="" placeholder="Name" />
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="Email Address"
+              />
+              <textarea
+                name="comment"
+                id=""
+                cols="60"
+                rows="3"
+                placeholder="Your Message"
+              ></textarea>
+              <input class="btn" type="submit" value="Submit Now" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+
+      <!-- Footer -->
+      <footer class="row">
+        <div class="row-crop">
+          <img class="logo" src="img/logo1.svg" alt="" />
+          <nav>
+            <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">FEATURE</a></li>
+              <li><a href="">SERVICE</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <p>Copyright © Ehsaas Spa 2023. Aman Mandape Original Creator.</p>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </div>
+  </body>
+</html>
